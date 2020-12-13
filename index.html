@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"></head>
+<body>
+    <h1 id='title'>Meme Generator</h1>
+    <form action="" id='logoform'>
+        <p>
+            <label for='urlName'>Add pic URL:  
+                <input type='url' placeholder='add here' name='urlName' id='url'>
+            </label>
+        </p>
+
+        <p>
+            <label for='textTop'>Text On Top: 
+                <input type='text' placeholder='type here' name='textTop' id='textTop'>
+            </label>
+        </p>
+
+        <p>
+            <label for='textBottom'>Text On Bottom: 
+                <input type='text' placeholder='type here' name='textBottom' id='textBottom'>
+            </label>
+        </p>
+
+        <button type='submit' id='btn'>Create!</button>
+
+    </form>
+    <section id='results'></section>
+    <script src="app.js"></script>
+    </body>
+    
+</html>
